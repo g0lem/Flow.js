@@ -13,7 +13,9 @@ var defaultTaskList = ['minifyFlowWatch'];
 
 //List of glob paths to SOURCE files for piping
 
-var flowFilesPath = ['./scripts/*.js'];
+var flowFilesPath = ['./scripts/main.js'
+                    ,'./scripts/directive.js'
+                    ];
 
 
 
@@ -27,7 +29,7 @@ var productionAngularPath = {
 
 var developmentFlowPath = {
     name : 'flow.dev.js',
-    dest : './scripts/'
+    dest : './production/'
 };
 
 
