@@ -1,0 +1,17 @@
+{
+  "name": "Flow.js",
+  "version": "v0.8.0",
+  "description": "Better Angular",
+  "author": "Stefan Serb",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.0",
+    "gulp-watch": "^4.3.11"
+  }
+}

@@ -23,6 +23,7 @@ var app = {
 document.onreadystatechange = function () {
     if (document.readyState === 'complete') {
         executeFrameworkModules();
+
     }
 };
 
